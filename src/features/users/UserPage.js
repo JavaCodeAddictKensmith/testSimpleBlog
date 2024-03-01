@@ -50,7 +50,7 @@ const UserPage = () => {
         // const {ids, entitie}= alForUser
         content = (
             <section>
-               <h2> <span>Tweets titles By </span>{user?.name}</h2> <span style={{fontStyle:'italic'}}> Please click any of the tweets below to view Details</span>
+               <h2> <span>Tweet titles By </span>{user?.name}</h2> <span style={{fontStyle:'italic'}}> Please click on any of the tweets below to view  tweet Details</span>
                <div style={{   gap:35, paddingBottom: 200}}>
                <ol>
                     {ids.map(id => (
