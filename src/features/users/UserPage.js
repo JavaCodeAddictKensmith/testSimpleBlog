@@ -35,7 +35,7 @@ const UserPage = () => {
         const { ids, entities } = postsForUser
         content = (
             <section>
-                <h2>{user?.name}</h2>
+               <h2> <span>Tweets titles By </span>{user?.name}</h2> <span> Please click to view Details</span>
                 <ol>
                     {ids.map(id => (
                         <li key={id}>

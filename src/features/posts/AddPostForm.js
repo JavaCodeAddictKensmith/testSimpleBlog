@@ -57,7 +57,7 @@ const AddPostForm = () => {
                     value={title}
                     onChange={onTitleChanged}
                 />
-                <label htmlFor="postAuthor">Author of Tweet:</label>
+                <label htmlFor="postAuthor">Name of Artist Adding The Tweet:</label>
                 <select id="postAuthor" value={userId} onChange={onAuthorChanged}>
                     <option value=""></option>
                     {usersOptions}

@@ -7,9 +7,9 @@ const Header = () => {
             <h1>Artist Blog</h1>
             <nav>
                 <ul>
-                    <li><Link to="/">Tweets By each Artist</Link></li>
-                    <li><Link to="post">Tweets</Link></li>
-                    <li><Link to="user">Artists</Link></li>
+                    <li><Link to="/">All tweets by each artist</Link></li>
+                    <li><Link to="post">Add tweets</Link></li>
+                    <li><Link to="user">All artists</Link></li>
                 </ul>
             </nav>
         </header>
