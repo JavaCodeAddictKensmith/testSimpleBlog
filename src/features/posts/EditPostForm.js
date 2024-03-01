@@ -89,9 +89,9 @@ const EditPostForm = () => {
 
     return (
         <section>
-            <h2>Edit Post</h2>
+            <h2>Edit Tweet</h2>
             <form>
-                <label htmlFor="postTitle">Post Title:</label>
+                <label htmlFor="postTitle"> Title:</label>
                 <input
                     type="text"
                     id="postTitle"
@@ -116,13 +116,13 @@ const EditPostForm = () => {
                     onClick={onSavePostClicked}
                     disabled={!canSave}
                 >
-                    Save Post
+                    Save Tweet
                 </button>
                 <button className="deleteButton"
                     type="button"
                     onClick={onDeletePostClicked}
                 >
-                    Delete Post
+                    Delete Tweet
                 </button>
             </form>
         </section>
